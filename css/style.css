@@ -2237,9 +2237,16 @@ body .bg-main {
 }
 
 .main-screen_old .swiper .swiper-slide .image {
+  border-radius: 0.05rem;
+  overflow: hidden;
   margin: 0 auto;
   height: 6rem;
   width: 4rem;
+}
+
+.main-screen_old .swiper .swiper-slide .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about p {

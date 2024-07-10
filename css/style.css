@@ -1253,7 +1253,7 @@ h4,
 }
 
 .mb_24 {
-  margin-bottom: 0.24rem;
+  margin-bottom: 0.24rem !important;
 }
 
 .ml_30 {
@@ -6397,6 +6397,12 @@ body .bg-main {
   .price {
     height: 3.5rem;
     margin-bottom: 0.16rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .sm-mb_10 {
+    margin-bottom: 0.1rem;
   }
 }
 

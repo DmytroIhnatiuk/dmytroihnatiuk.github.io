@@ -814,9 +814,6 @@ video {
 .justify-between {
   justify-content: space-between
 }
-.gap-10 {
-  gap: .1rem
-}
 .gap-12 {
   gap: .12rem
 }
@@ -840,6 +837,11 @@ video {
 }
 .gap-8 {
   gap: .08rem
+}
+.gap-x-10 {
+  -webkit-column-gap: .1rem;
+  -moz-column-gap: .1rem;
+  column-gap: .1rem
 }
 .gap-x-16 {
   -webkit-column-gap: .16rem;
@@ -1141,6 +1143,9 @@ video {
 }
 .text-center {
   text-align: center
+}
+.text-\[\.1rem\] {
+  font-size: .1rem
 }
 .text-l {
   font-size: var(--txt-l)
@@ -3742,6 +3747,9 @@ button.swiper-pagination-bullet {
   }
   .sm\:text-m {
     font-size: var(--txt-m)
+  }
+  .sm\:text-s {
+    font-size: var(--txt-s)
   }
 }
 @media all and (min-width:640px) {

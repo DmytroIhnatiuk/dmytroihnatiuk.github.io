@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="ua">
+
+<head>
+	<title>for owners</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250702120833" />
+	<link href="https://fonts.googleapis.com/css?family=Manrope:300,regular,500,600,700&display=swap&_v=20250702120833" rel="stylesheet" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script>
+		let path = window.location.pathname
+	</script>
+</head>
+
+<body class="body text-black font-normal text-m bg-bg">
+	<div class="page-container">
+		<header class="!max-h-[var(--header-height)] w-full z-50 !fixed transition-transform duration-500 ease-linear header-black">
+			<div class="container flex items-center mt-26">
+				<a href="index.html" class="h-[.43rem] sm:h-[.64rem] w-[1.05rem] sm:w-[1.55rem]">
+					<img class="object-contain" src="img/logo-b.webp" alt="logo" />
+				</a>
+				<div class="menu ml-auto bg-khaki lg:bg-transparent absolute top-0 right-[-3.6rem] lg:static px-16 py-32 sm:py-50 w-[3.6rem] h-[100vh] lg:h-auto lg:w-auto lg:p-0 lg:mr-50 transition-transform duration-300 ease-linear">
+					<a href="index.html" class="image h-[.43rem] w-[1.02rem] sm:hidden mb-50 block mx-auto">
+						<img class="object-contain" src="img/logo.webp" alt="logo" />
+					</a>
+					<ul class="flex uppercase lg:lowercase flex-col lg:flex-row items-center gap-32 lg:gap-36 mb-[1.2rem] lg:mb-0 text-white lg:text-black">
+						<li class="border-b border-transparent border-solid lg:hover:border-black transition-colors !duration-300 ease-linear">
+							<a href="#objects">об’єкти</a>
+						</li>
+						<li class="border-b border-transparent border-solid lg:hover:border-black transition-colors !duration-300 ease-linear">
+							<a href="#about-us">про нас</a>
+						</li>
+						<li class="border-b border-transparent border-solid lg:hover:border-black transition-colors !duration-300 ease-linear">
+							<a href="#why-us">чому ми</a>
+						</li>
+						<li class="border-b border-transparent border-solid lg:hover:border-black transition-colors !duration-300 ease-linear">
+							<a href="#reviews">про нас говорять клієнти </a>
+						</li>
+						<li class="border-b border-transparent border-solid lg:hover:border-black transition-colors !duration-300 ease-linear">
+							<a href="#owners">власникам </a>
+						</li>
+						<li class="border-b border-transparent border-solid lg:hover:border-black transition-colors !duration-300 ease-linear">
+							<a href="contact.html">контакти</a>
+						</li>
+					</ul>
+					<button class="uppercase w-full p-16 border border-solid border-white bg-transparent lg:hover:bg-white lg:hover:text-khaki transition-colors duration-300 ease-linear lg:hidden text-white">
+						залишити заявку
+					</button>
+				</div>
+				<a class="uppercase sm:py-12 sm:px-24 sm:border border-solid border-black bg-transparent lg:hover:bg-khaki lg:hover:border-khaki lg:hover:text-white transition-colors duration-300 ease-linear ml-auto lg:ml-0 mr-10 lg:mr-0" href="tel:+380000000000">
+					<span class="hidden sm:block">Зв’язатись</span>
+					<svg class="size-40 sm:hidden fill-transparent stroke-black">
+						<use xlink:href="#phone-header"></use>
+					</svg>
+				</a>
+				<button class="burger lg:!hidden"><span></span></button>
+			</div>
+		</header>
+
+
+		<main>
+			<section class="pt-[1.3rem] lg:h-[3.4rem] flex items-end mb-32 sm:mb-40">
+				<div class="container lg:grid lg:grid-cols-12 gap-24 pb-32 sm:pb-40 relative before:absolute before:h-2 before:bottom-0 before:right-[var(--container-gap)] before:left-[var(--container-gap)] before:bg-khaki">
+					<h1 class="col-start-1 col-end-7 h2 uppercase font-semibold mb-16 sm:mb-24 lg:mb-0">
+						Продаж або оренда
+						<span class="font-light">преміальної нерухомості</span> — з
+						професійною підтримкою
+					</h1>
+					<div class="lg:col-start-8 lg:col-end-13 self-end">
+						<p class="h4 mb-32">
+							Маєте об'єкт? Ми допоможемо реалізувати його вигідно, швидко і
+							без зайвого залучення з вашого боку
+						</p>
+						<div class="flex flex-col sm:flex-row gap-8">
+							<button type="submit" class="relative text-white h-[0.54rem] uppercase px-24 hover:before:bg-transparent bg-khaki before:z-10 before:position-0 btn-gradient before:bg-khaki before:transition-colors before:duration-300 before:ease-linear w-full">
+								<span class="z-10 relative">заявка на консультацію </span>
+							</button>
+							<button class="uppercase py-16 px-24 sm:border border-solid h-[0.54rem] border-black bg-transparent lg:hover:bg-khaki lg:hover:border-khaki lg:hover:text-white transition-colors duration-300 ease-linear w-full flex-center">
+								<span>Прорахувати вартість</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bg-owner-1 h-[100vh] py-32 sm:py-40 flex items-end">
+				<div class="container">
+					<h2 class="h2 font-semibold uppercase text-white mb-32 sm:mb-40" data-aos="fade-up">
+						Чому
+						<span class="font-light">власники <br />
+							обирають</span>
+						ICON?
+					</h2>
+					<div class="swiper" data-aos="fade-up" data-swiper="ownersSlider">
+						<div class="swiper-wrapper mb-24 lg:mb-0 leading-tight">
+							<div class="swiper-slide">
+								<div class="bg-white px-12 pt-32 pb-16 text-black">
+									<h3 class="text-l font-semibold pb-12 border-b border-black border-solid mb-32">
+										Точна стратегія продажу чи оренди
+									</h3>
+									<p>
+										Ми оцінюємо обʼєкт без прикрас, будуємо реальну стратегію
+										для досягнення ваших цілей — продаж чи здача на вигідних
+										умовах.
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="bg-white px-12 pt-32 pb-16 text-black">
+									<h3 class="text-l font-semibold pb-12 border-b border-black border-solid mb-32">
+										Професійна презентація нерухомості
+									</h3>
+									<p>
+										Виїжджаємо на обʼєкт для ознайомлення, готуємо фото, відео
+										й опис — для ефективної професійної подачі вашої
+										нерухомості
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="bg-white px-12 pt-32 pb-16 text-black">
+									<h3 class="text-l font-semibold pb-12 border-b border-black border-solid mb-32">
+										Персональна база покупців та орендарів
+									</h3>
+									<p>
+										Маємо прямі запити від клієнтів, які шукають подібні
+										обʼєкти — без масових публікацій і випадкових переглядів.
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="bg-white px-12 pt-32 pb-16 text-black">
+									<h3 class="text-l font-semibold pb-12 border-b border-black border-solid mb-32">
+										Юридичний супровід і безпечна угода
+									</h3>
+									<p>
+										Контракти, перевірки, оформлення — ми супроводжуємо процес
+										до моменту передачі ключів, щоб ви почувалися впевнено.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination relative bottom-0"></div>
+					</div>
+				</div>
+			</section>
+			<section class="mt-100 sm:mt-[1.3rem] mb-100">
+				<div class="container">
+					<h2 class="uppercase h2 font-semibold mb-32 sm:mb-40">
+						Що ми беремо <span class="font-light">на себе?</span>
+					</h2>
+					<div class="grid grid-col-1 lg:grid-cols-2 gap-24">
+						<div class="image w-[calc(100%+var(--container-gap))] h-[2.9rem] sm:h-[5.04rem] lg:!w-full -translate-x-[var(--container-gap)]">
+							<img src="img/Rectangle 10 (1).webp" alt="image" />
+						</div>
+						<div class="sm:pr-50 flex flex-col gap-24">
+							<div class="flex tex-l pb-16 border-b border-black border-solid" data-aos="fade-up">
+								<div class="text-gray mr-24 sm:mr-[.9rem]">01/</div>
+								<p class="h4 font-semibold">
+									Ви залишаєте заявку або контактуєте з експертом
+								</p>
+							</div>
+							<div class="flex tex-l pb-16 border-b border-black border-solid" data-aos="fade-up">
+								<div class="text-gray mr-24 sm:mr-[.9rem]">02/</div>
+								<p class="h4 font-semibold">
+									Ми зв’язуємось, оцінюємо обʼєкт та погоджуємо цілі
+								</p>
+							</div>
+							<div class="flex tex-l pb-16 border-b border-black border-solid" data-aos="fade-up">
+								<div class="text-gray mr-24 sm:mr-[.9rem]">03/</div>
+								<p class="h4 font-semibold">
+									Формуємо позиціювання, фото, текст і публікуємо обʼєкт
+								</p>
+							</div>
+							<div class="flex tex-l pb-16 border-b border-black border-solid" data-aos="fade-up">
+								<div class="text-gray mr-24 sm:mr-[.9rem]">04/</div>
+								<p class="h4 font-semibold">
+									Ви залишаєте заявку або контактуєте з експертом
+								</p>
+							</div>
+							<div class="flex tex-l pb-16 border-b border-black border-solid" data-aos="fade-up">
+								<div class="text-gray mr-24 sm:mr-[.9rem]">05/</div>
+								<p class="h4 font-semibold">
+									Узгоджуємо умови, готуємо документи, супроводжуємо угоду
+								</p>
+							</div>
+							<div class="flex tex-l pb-16 border-b border-black border-solid" data-aos="fade-up">
+								<div class="text-gray mr-24 sm:mr-[.9rem]">06/</div>
+								<p class="h4 font-semibold">
+									Ви отримуєте результат — без клопоту
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bg-owner-2 h-[100vh] sm:h-[5.9rem] py-50 sm:py-[.8rem]">
+				<div class="container">
+					<h2 class="uppercase font-semibold max-w-[5.5rem] h2 text-white mb-24 sm:mb-40" data-aos="fade-up">
+						Працюємо <span class="font-light">на результат,</span> а не на
+						обіцянки
+					</h2>
+					<div class="max-w-[4.5rem] p-24 bg-white" data-aos="fade-up">
+						<p class="leading-tight mb-24">
+							Середній термін реалізації обʼєкта в преміум-сегменті:
+							<span class="font-semibold">від 7 до 21 дня </span>— завдяки
+							точному позиціюванню і доступу до потрібної аудиторії.
+						</p>
+						<button type="submit" class="relative text-white py-14 uppercase px-24 hover:before:bg-transparent bg-khaki before:z-10 before:position-0 btn-gradient before:bg-khaki before:transition-colors before:duration-300 before:ease-linear w-full">
+							<span class="z-10 relative">залишити заявку
+								<span class="hidden sm:inline">на консультацію</span>
+							</span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="mb-100 lg:mb-[1.3rem] mt-100 sm:mt-[1.3rem]">
+				<div class="container">
+					<h2 class="h2 font-semibold uppercase mb-40 lg:mb-[.56rem]" data-aos="fade-up">
+						про нас <span class="font-light">говорять</span> клієнти
+					</h2>
+					<div class="swiper" data-aos="fade-up" data-swiper="reviewsSlider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="border border-black border-solid px-24 py-32 flex gap-24 flex-col sm:flex-row min-h-[2.3rem]">
+									<div class="image rounded overflow-hidden size-100 flex-shrink-0 mx-auto">
+										<img src="img/Kostiantyn.webp" alt="user" />
+									</div>
+									<div>
+										<div class="flex gap-6 mx-auto sm:mx-0 mb-16 w-max">
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-transparent stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+										</div>
+										<div class="h4 font-semibold text-center sm:text-start mb-16">
+											Андрій, купівля будинку в Козині
+										</div>
+										<p class="h4">
+											“Я не очікував, що з агентством взагалі можна працювати
+											так комфортно. Чітко, спокійно, без ілюзій — ідеально.”
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="border border-black border-solid px-24 py-32 flex gap-24 flex-col sm:flex-row min-h-[2.3rem]">
+									<div class="image rounded overflow-hidden size-100 flex-shrink-0 mx-auto">
+										<img src="img/maksym.webp" alt="user" />
+									</div>
+									<div>
+										<div class="flex gap-6 mx-auto sm:mx-0 mb-16 w-max">
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-transparent stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+										</div>
+										<div class="h4 font-semibold text-center sm:text-start mb-16">
+											Наталія, продаж квартири на Печерську
+										</div>
+										<p class="h4">
+											“Дякую команді ICON за терпіння і професіоналізм. Я
+											переживала за юридичну частину — і все пройшло
+											ідеально.”
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="border border-black border-solid px-24 py-32 flex gap-24 flex-col sm:flex-row min-h-[2.3rem]">
+									<div class="image rounded overflow-hidden size-100 flex-shrink-0 mx-auto">
+										<img src="img/maksym.webp" alt="user" />
+									</div>
+									<div>
+										<div class="flex gap-6 mx-auto sm:mx-0 mb-16 w-max">
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-khaki stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+											<svg class="size-24 fill-transparent stroke-khaki mr-8">
+												<use xlink:href="#star-icon"></use>
+											</svg>
+										</div>
+										<div class="h4 font-semibold text-center sm:text-start mb-16">
+											Наталія, продаж квартири на Печерську
+										</div>
+										<p class="h4">
+											“Дякую команді ICON за терпіння і професіоналізм. Я
+											переживала за юридичну частину — і все пройшло
+											ідеально.”
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex w-max mx-auto gap-24 mt-24">
+							<button>
+								<svg class="size-40 fill-transparent stroke-khaki btn-prev lg:hover:scale-[1.2] transition-transform duration-300 ease-linear">
+									<use xlink:href="#shevron-icon"></use>
+								</svg>
+							</button>
+							<button class="rotate-180">
+								<svg class="size-40 fill-transparent stroke-khaki btn-next lg:hover:scale-[1.2] transition-transform duration-300 ease-linear">
+									<use xlink:href="#shevron-icon"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="pt-40 pb-[1.6rem] sm:py-[.8rem] bg-black text-white">
+			<div class="lg:container">
+				<div class="flex flex-col lg:flex-row lg:gap-40 gap-32 pb-40 relative before:w-wull before:h-1 before:bg-white before:right-[var(--container-gap)] before:left-[var(--container-gap)] lg:before:right-0 lg:before:left-0 before:bottom-0 before:absolute mb-40 sm:mb-[.6rem]">
+					<div class="max-w-[7.7rem] px-[var(--container-gap)] lg:p-0">
+						<h2 class="h2 uppercase font-semibold mb-24 sm:mb-36">
+							Маєте питання? залиште свої данні і
+							<span class="font-light">отримайте Безкоштовну консультацію</span>
+							з експертом
+						</h2>
+						<form class="form flex flex-wrap sm:flex-nowrap justify-between mx-auto gap-x-8 gap-y-24">
+							<div class="w-full lg:w-[2.5rem]">
+								<input type="text" name="name" id="name" placeholder="Ім'я" class="text-l h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+								<div class="form-item__message"></div>
+							</div>
+							<div class="w-full lg:w-[2.5rem]">
+								<input type="text" name="phone" id="phone" placeholder="Телефон" class="text-l h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+								<div class="form-item__message"></div>
+							</div>
+							<button type="submit" class="h-[0.54rem] uppercase px-24 w-full sm:w-auto lg:w-full lg:max-w-[2.5rem] relative hover:before:bg-transparent bg-khaki before:z-10 before:position-0 btn-gradient before:bg-khaki before:transition-colors before:duration-300 before:ease-linear">
+								<span class="z-10 relative">Відправити</span>
+							</button>
+						</form>
+					</div>
+					<div class="image w-full h-[2rem] sm:h-[3.4rem] lg:h-[2.8rem] ml-[var(--container-gap)] lg:m-0 lg:translate-x-[var(--container-gap)]">
+						<img class="object-cover" src="img/footer-image.webp" alt="footer-image" />
+					</div>
+				</div>
+				<div class="grid px-[var(--container-gap)] lg:px-0 lg:grid-cols-2 gap-24">
+					<a href="index.html" class="image w-[1.85rem] h-[.78rem] sm:w-[2.2rem] sm:h-[.94rem] mx-auto lg:mx-0 mb-40">
+						<img src="img/logo.webp" alt="logo" />
+					</a>
+					<div class="sm:flex justify-between">
+						<ul class="flex items-center sm:items-start flex-col gap-16 text-m sm:text-s mb-50 sm:mb-0">
+							<li class="border-b border-transparent border-solid lg:hover:border-white transition-colors !duration-300 ease-linear w-max">
+								<a href="#">Oб’єкти</a>
+							</li>
+							<li class="border-b border-transparent border-solid lg:hover:border-white transition-colors !duration-300 ease-linear w-max">
+								<a href="#">Про нас</a>
+							</li>
+							<li class="border-b border-transparent border-solid lg:hover:border-white transition-colors !duration-300 ease-linear w-max">
+								<a href="#">Чому ми</a>
+							</li>
+							<li class="border-b border-transparent border-solid lg:hover:border-white transition-colors !duration-300 ease-linear w-max">
+								<a href="#">Про нас говорять клієнти </a>
+							</li>
+							<li class="border-b border-transparent border-solid lg:hover:border-white transition-colors !duration-300 ease-linear w-max">
+								<a href="#">Власникам </a>
+							</li>
+							<li class="border-b border-transparent border-solid lg:hover:border-white transition-colors !duration-300 ease-linear w-max">
+								<a href="#">Контакти</a>
+							</li>
+						</ul>
+						<div class="min-w-[2.5rem]">
+							<div class="uppercase mb-26 w-max mx-auto sm:mx-0">контакти</div>
+							<a href="#" class="flex items-center mb-16 border-b border-transparent border-solid lg:hover:border-white transition-colors !duration-300 ease-linear w-max pb-2 mx-auto sm:mx-0">
+								<svg class="size-24 fill-white mr-8">
+									<use xlink:href="#location-icon"></use>
+								</svg><span>м. Київ</span></a>
+							<a href="#" class="flex items-center mb-16 border-b border-transparent border-solid lg:hover:border-white transition-colors !duration-300 ease-linear w-max pb-2 mx-auto sm:mx-0">
+								<svg class="size-24 fill-white mr-8">
+									<use xlink:href="#phone-fill"></use>
+								</svg><span>+380 000 00 00</span></a>
+							<a href="mailto:example@gmail.com" class="flex items-center border-b border-transparent border-solid lg:hover:border-white transition-colors !duration-300 ease-linear w-max pb-2 mb-32 mx-auto sm:mx-0">
+								<svg class="size-24 fill-white mr-8">
+									<use xlink:href="#mail-icon"></use>
+								</svg><span>example@gmail.com</span></a>
+							<a class="uppercase py-16 px-24 border border-solid border-white bg-transparent lg:hover:bg-white lg:hover:text-khaki transition-colors duration-300 ease-linear ml-auto lg:ml-0 mr-10 lg:mr-0 w-full flex-center font-semibold mx-auto sm:mx-0" href="tel:+380000000000">
+								Зв'язатися з нами
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<div class="flex-center h-full w-full modal-container absolute position-0 z-50 container !hidden">
+		<div class="bg-bg max-w-[8.65rem] px-16 py-50 sm:px-50 lg:py-[.6rem] lg:pl-[.8rem] lg:pr-[.6rem] relative max-h-full overflow-y-scroll">
+			<button>
+				<svg class="size-32 fill-transrarent stroke-black lg:hover:scale-[1.1] transition-transform absolute top-32 right-32">
+					<use xlink:href="#close-icon"></use>
+				</svg>
+			</button>
+
+			<h2 class="h2 uppercase font-semibold mb-24 sm:mb-0">
+				Залиште заявку, щоб отримати
+				<span class="font-light">ексклюзивні пропозиції</span>
+			</h2>
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+				<form class="form flex flex-col gap-y-12 self-center">
+					<div class="w-full lg:w-[3.06rem]">
+						<input type="text" name="name" id="name" placeholder="Ім'я" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+						<div class="form-item__message"></div>
+					</div>
+					<div class="w-full lg:w-[3.06rem]">
+						<input type="text" name="phone" id="phone" placeholder="Телефон" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+						<div class="form-item__message"></div>
+					</div>
+					<button type="submit" class="h-[0.54rem] uppercase px-24 w-full sm:w-auto lg:w-full lg:max-w-[3.06rem] relative hover:before:bg-transparent bg-khaki before:z-10 before:position-0 btn-gradient before:bg-khaki before:transition-colors before:duration-300 before:ease-linear text-white">
+						<span class="z-10 relative">Відправити</span>
+					</button>
+				</form>
+				<div class="w-[2.3rem] sm:w-[3.3rem] mx-auto sm:ml-auto relative">
+					<img class="object-contain relative z-10" src="img/Rectangle 14.webp" alt="decoration" />
+					<img class="w-full absolute -bottom-50 -right-50" src="img/Ellipse 2.webp" alt="ellipse" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="flex-center h-full w-full modal-container absolute position-0 z-50 container pt-32 !hidden">
+		<div class="bg-bg max-w-[10.8rem] px-16 pt-50 pb-20 sm:px-50 lg:py-[.6rem] lg:pl-[.8rem] lg:pr-[.6rem] relative max-h-full overflow-y-scroll">
+			<button>
+				<svg class="size-32 fill-transrarent stroke-black lg:hover:scale-[1.1] transition-transform absolute top-32 right-16 sm:right-32">
+					<use xlink:href="#close-icon"></use>
+				</svg>
+			</button>
+
+			<div class="grid grid-cols-1 lg:grid-cols-7 gap-24">
+				<div class="lg:col-start-1 lg:col-end-5">
+					<h2 class="h2 uppercase font-semibold mb-24">
+						<span class="font-light">Персональний</span> підбір обʼєктів - за
+						Вашими критеріями 
+					</h2>
+					<p class="h4">
+						Залиште свої контактні дані, і наш експерт підбере для Вас найкращі
+						пропозиції
+					</p>
+				</div>
+
+				<div class="w-[2.7rem] sm:w-[4rem] mx-auto sm:ml-auto relative lg:col-start-5 lg:col-end-8 row-start-3 lg:row-start-auto">
+					<img class="object-contain relative z-10" src="img/Rectangle 14 (1).webp" alt="decoration" />
+					<img class="w-full absolute -bottom-50 -right-50" src="img/Ellipse 2.webp" alt="ellipse" />
+				</div>
+				<form class="form flex flex-col lg:flex-row gap-x-8 gap-y-12 self-center lg:col-start-1 lg:col-end-8">
+					<div class="w-full lg:w-[2.5rem]">
+						<input type="text" name="name" id="name" placeholder="Ім'я" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+						<div class="form-item__message"></div>
+					</div>
+					<div class="w-full lg:w-[2.5rem]">
+						<input type="text" name="phone" id="phone" placeholder="Телефон" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+						<div class="form-item__message"></div>
+					</div>
+					<button type="submit" class="h-[0.54rem] uppercase px-24 w-full sm:w-auto lg:w-full lg:max-w-[2.5rem] relative hover:before:bg-transparent bg-khaki before:z-10 before:position-0 btn-gradient before:bg-khaki before:transition-colors before:duration-300 before:ease-linear text-white">
+						<span class="z-10 relative">Відправити</span>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="flex-center h-full w-full modal-container absolute position-0 z-50 container py-32 !hidden">
+		<div class="bg-bg pl-16 pt-50 sm:pl-50 lg:pt-[.6rem] lg:pl-[.8rem] relative max-h-full overflow-y-scroll">
+			<button>
+				<svg class="size-32 fill-transparent stroke-black lg:hover:scale-[1.1] transition-transform absolute top-32 right-16 sm:right-32">
+					<use xlink:href="#close-icon"></use>
+				</svg>
+			</button>
+
+			<div class="grid grid-cols-1 lg:grid-cols-[1fr,4.84rem] gap-40">
+				<div class="pr-16 sm:pr-50">
+					<h2 class="h2 uppercase font-semibold mb-24">
+						Дізнайтесь вартість
+						<span class="font-light">вашої нерухомості</span>
+					</h2>
+					<div class="tabs-container">
+						<div class="flex gap-24 mb-16 sm:mb-24 uppercase">
+							<div class="px-24 py-12 w-1/2 sm:w-auto cursor-pointer hover:border-black border-b border-transparent border-solid text-center transition-colors duration-300 ease-linear tab-button lg:w-[2.5rem]">
+								будинок
+							</div>
+							<div class="px-24 py-12 w-1/2 sm:w-auto cursor-pointer hover:border-black border-b border-transparent border-solid text-center transition-colors duration-300 ease-linear tab-button lg:w-[2.5rem]">
+								квартира
+							</div>
+						</div>
+						<div class="relative">
+							<form class="form gap-x-10 gap-y-16 self-center grid lg:grid-cols-2 bg-bg tab-content -z-10 opacity-0 transition-opacity duration-300 ease-linear">
+								<div class="w-full">
+									<input type="text" name="cost-calculation-rooms-house" placeholder="Кількість кімнат" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+									<div class="form-item__message"></div>
+								</div>
+								<div class="w-full">
+									<input type="text" name="cost-calculation-area-house" placeholder="Загальна площа" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+									<div class="form-item__message"></div>
+								</div>
+
+								<div class="w-full lg:col-start-1 lg:col-end-3">
+									<input type="text" name="cost-calculation-location-house" placeholder="Адреса (вулиця та номер будинку)" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+									<div class="form-item__message"></div>
+								</div>
+
+								<div class="w-full">
+									<input type="text" name="cost-calculation-name-house" placeholder="Ім'я" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+									<div class="form-item__message"></div>
+								</div>
+								<div class="w-full">
+									<input type="text" name="cost-calculation-phone-house" placeholder="Телефон" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+									<div class="form-item__message"></div>
+								</div>
+								<button type="submit" class="h-[0.54rem] uppercase px-24 w-full sm:w-auto lg:w-full relative hover:before:bg-transparent bg-khaki before:z-10 before:position-0 btn-gradient before:bg-khaki before:transition-colors before:duration-300 before:ease-linear text-white lg:col-start-1 lg:col-end-3 mt-12">
+									<span class="z-10 relative">Відправити</span>
+								</button>
+							</form>
+							<form class="form gap-x-10 gap-y-16 self-center grid lg:grid-cols-2 tab-content bg-bg opacity-0 -z-10 transition-opacity duration-300 ease-linear absolute top-0 left-0 right-0">
+								<div class="w-full">
+									<input type="text" name="cost-calculation-rooms-flat" placeholder="Кількість кімнат" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+									<div class="form-item__message"></div>
+								</div>
+								<div class="w-full">
+									<input type="text" name="cost-calculation-area-flat" placeholder="Загальна площа" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+									<div class="form-item__message"></div>
+								</div>
+
+								<div class="w-full lg:col-start-1 lg:col-end-3">
+									<input type="text" name="cost-calculation-location-flat" placeholder="Адреса (вулиця та номер будинку)" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+									<div class="form-item__message"></div>
+								</div>
+
+								<div class="w-full">
+									<input type="text" name="cost-calculation-name-flat" placeholder="Ім'я" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+									<div class="form-item__message"></div>
+								</div>
+								<div class="w-full">
+									<input type="text" name="cost-calculation-phone-flat" placeholder="Телефон" class="h-[.54rem] w-full border border-solid bg-transparent p-12 flex items-center" />
+									<div class="form-item__message"></div>
+								</div>
+								<button type="submit" class="h-[0.54rem] uppercase px-24 w-full sm:w-auto lg:w-full relative hover:before:bg-transparent bg-khaki before:z-10 before:position-0 btn-gradient before:bg-khaki before:transition-colors before:duration-300 before:ease-linear text-white lg:col-start-1 lg:col-end-3 mt-12">
+									<span class="z-10 relative">Відправити</span>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="w-full image relative h-[2.74rem] sm:h-[3.7rem] lg:h-[5.53rem]">
+					<img class="object-cover object-bottom size-full" src="img/Rectangle 11.webp" alt="decoration" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<svg width="0" height="0" class="none">
+		<symbol xmlns="http://www.w3.org/2000/svg" id="phone-header" viewBox="0 0 40 40">
+			<path d="M10.6796 9.09815L12.0707 7.70711C12.4612 7.31658 13.0944 7.31658 13.4849 7.70711L17.8484 12.0707C18.239 12.4612 18.239 13.0944 17.8484 13.4849L16.0592 15.2741C15.8248 15.5086 15.7667 15.8667 15.9149 16.1632C17.629 19.5913 20.4087 22.371 23.8368 24.0851C24.1333 24.2333 24.4914 24.1752 24.7259 23.9408L26.5151 22.1516C26.9056 21.761 27.5388 21.761 27.9293 22.1516L32.2929 26.5151C32.6834 26.9056 32.6834 27.5388 32.2929 27.9293L30.9018 29.3204C28.7905 31.4317 25.4479 31.6693 23.0592 29.8777L18.2952 26.3048C16.5517 24.9971 15.0029 23.4483 13.6952 21.7048L10.1223 16.9408C8.33072 14.5521 8.56827 11.2095 10.6796 9.09815Z" />
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" id="location-icon" viewBox="0 0 24 25">
+			<path d="M11.9997 2.65967C14.2162 2.65967 16.3418 3.53451 17.9091 5.09173C19.4764 6.64895 20.3569 8.761 20.3569 10.9632C20.3569 14.472 17.8754 18.2959 12.9769 22.4758C12.7045 22.7083 12.3572 22.836 11.9981 22.8357C11.639 22.8354 11.292 22.7071 11.02 22.4741L10.696 22.1948C6.01429 18.1239 3.64258 14.3937 3.64258 10.9632C3.64258 8.761 4.52306 6.64895 6.09033 5.09173C7.6576 3.53451 9.78327 2.65967 11.9997 2.65967ZM11.9997 7.76956C11.1472 7.76956 10.3297 8.10603 9.72688 8.70497C9.12408 9.3039 8.78543 10.1162 8.78543 10.9632C8.78543 11.8103 9.12408 12.6226 9.72688 13.2215C10.3297 13.8204 11.1472 14.1569 11.9997 14.1569C12.8522 14.1569 13.6698 13.8204 14.2726 13.2215C14.8754 12.6226 15.214 11.8103 15.214 10.9632C15.214 10.1162 14.8754 9.3039 14.2726 8.70497C13.6698 8.10603 12.8522 7.76956 11.9997 7.76956Z" />
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" id="phone-fill" viewBox="0 0 24 25">
+			<path d="M6.67962 3.83307L7.29289 3.2198C7.68342 2.82928 8.31658 2.82928 8.70711 3.2198L11.2929 5.80559C11.6834 6.19611 11.6834 6.82928 11.2929 7.2198L9.50048 9.01221C9.2016 9.3111 9.1275 9.7677 9.31653 10.1458C10.4093 12.3313 12.1814 14.1034 14.3669 15.1962C14.745 15.3852 15.2016 15.3111 15.5005 15.0122L17.2929 13.2198C17.6834 12.8293 18.3166 12.8293 18.7071 13.2198L21.2929 15.8056C21.6834 16.1961 21.6834 16.8293 21.2929 17.2198L20.6796 17.8331C18.5683 19.9444 15.2257 20.182 12.837 18.3904L11.6286 17.4841C9.88504 16.1765 8.33622 14.6277 7.02857 12.8841L6.12226 11.6757C4.33072 9.28699 4.56827 5.94443 6.67962 3.83307Z" />
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" id="mail-icon" viewBox="0 0 24 25">
+			<path d="M3.01271 9.40527L11.0332 13.833C11.6348 14.1651 12.3653 14.1651 12.9668 13.833L20.9863 9.40527C21.0001 9.94939 21 10.5682 21 11.2754V13.1855C21 16.014 20.9998 17.4289 20.1211 18.3076C19.2424 19.1859 17.8281 19.1855 15 19.1855H9.00002C6.17197 19.1855 4.75763 19.1859 3.87892 18.3076C3.00024 17.4289 3.00002 16.014 3.00002 13.1855V11.2754C3.00002 10.5682 2.99898 9.94938 3.01271 9.40527ZM15 5.27539C17.8284 5.27539 19.2424 5.2757 20.1211 6.1543C20.4237 6.45688 20.6199 6.82358 20.75 7.28906C20.6705 7.30967 20.5919 7.33935 20.5166 7.38086L12 12.082L3.48342 7.38086L3.39162 7.33594C3.34496 7.31602 3.297 7.30145 3.24904 7.28906C3.37911 6.82346 3.57628 6.45694 3.87892 6.1543C4.75761 5.2757 6.17168 5.27539 9.00002 5.27539H15Z" />
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" id="arrow-icon" viewBox="0 0 20 21">
+			<g clip-path="url(#clip0_2049_167)">
+				<path d="M15.2964 4.48339L6.0819 4.4171C5.68415 4.4171 5.37479 4.72646 5.37479 5.1242C5.37479 5.52195 5.68415 5.83131 6.0819 5.83131L13.5728 5.8976L4.18155 15.2889C3.91638 15.554 3.91638 15.996 4.18155 16.2611C4.44671 16.5263 4.91075 16.5484 5.17592 16.2832L14.6114 6.84778L14.6777 14.4271C14.6777 14.8248 14.987 15.1342 15.3848 15.1342C15.5615 15.1342 15.7383 15.0458 15.8709 14.9132C16.0035 14.7806 16.0919 14.6039 16.0698 14.405L16.0035 5.1905C16.0035 4.79275 15.6941 4.48339 15.2964 4.48339Z" />
+			</g>
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" id="star-icon" viewBox="0 0 20 19">
+			<path d="M9.52441 1.08203C9.67409 0.621375 10.3259 0.621378 10.4756 1.08203L11.9941 5.75488C12.195 6.37292 12.7711 6.79199 13.4209 6.79199H18.335C18.8193 6.79199 19.0207 7.41158 18.6289 7.69629L14.6533 10.585C14.1276 10.9669 13.9077 11.6437 14.1084 12.2617L15.627 16.9355C15.7766 17.3961 15.2493 17.7795 14.8574 17.4951L10.8818 14.6064C10.3561 14.2245 9.6439 14.2245 9.11816 14.6064L5.14258 17.4951C4.75074 17.7795 4.2234 17.3961 4.37305 16.9355L5.8916 12.2617C6.09235 11.6437 5.87238 10.9669 5.34668 10.585L1.37109 7.69629C0.979264 7.41158 1.18069 6.79199 1.66504 6.79199H6.5791C7.22894 6.79199 7.80505 6.37292 8.00586 5.75488L9.52441 1.08203Z" />
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" id="shevron-icon" viewBox="0 0 40 40">
+			<path d="M25 10L15 20L25 30" stroke-width="2" />
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" id="close-icon" viewBox="0 0 32 32">
+			<path d="M24 8L8 24" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" />
+			<path d="M8 8L24 24" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" />
+		</symbol>
+	</svg>
+
+	<script src="js/app.min.js?_v=20250702120833"></script>
+	<script src="js/home.min.js?_v=20250702120833"></script>
+</body>
+
+</html>
